@@ -1,0 +1,1780 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CDMS | HOME</title>
+    <link rel="shortcut icon" href="CDMS IMAGES/fv.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <style>
+    
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+        :root{
+            --primary-color: #212529;
+        }
+        
+        .iso-img{
+          position: fixed;
+          right: 5px;
+          bottom:20px;
+          z-index: 5;
+          height: 86px;
+          width: 130px; /* Adjust size as needed */
+          box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5); /* horizontal, vertical, blur, color */
+          border-radius:10px;
+        }
+        .brand-custom-color{
+          color:#4cd8e7;
+        }
+        .paragraph-section p {
+          font-size: 16px;
+          line-height: 1.6;
+          margin: 0;
+        }
+        .navbar{
+            display: flex;
+            top: 0;
+            position: fixed;
+            flex-wrap: nowrap;
+            overflow: hidden;
+            width:100%;
+            height: 110px;
+        }
+        
+shine animation {
+    background-position-x: -153.399%;
+    background-position-y: 50%;
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: var(--bs-navbar-nav-link-padding-x);
+        padding-left: var(--bs-navbar-nav-link-padding-x);
+    }
+}
+.silver-shine {
+    position: relative;
+    display: inline-block;
+    font-weight: bold;
+    background: linear-gradient(120deg, #ccc 0%, #eee 40%, #fff 50%, #eee 60%, #ccc 100%);
+    background-size: 200% auto;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    animation: shine 6s linear infinite;
+}
+.mylink {
+    color: white;
+}
+
+.nav-link {
+    display: block;
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    font-size: var(--bs-nav-link-font-size);
+    font-weight: var(--bs-nav-link-font-weight);
+    color: var(--bs-nav-link-color);
+    text-decoration: none;
+    background: 0 0;
+    border: 0;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
+
+.nav-item i{
+  padding-bottom: 10px; 
+  margin: 0px 1px 0px 10px;
+}
+
+
+a {
+    color: rgba(var(--bs-link-color-rgb), var(--bs-link-opacity, 1));
+    text-decoration: underline;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+user agent stylesheet
+li {
+    text-align: -webkit-match-parent;
+}
+
+
+        .myfontandcolor{
+            font-family:'Poppins', sans-serif; 
+        }
+
+        .mylink{
+            color:white;
+        }
+        
+        .mylink:hover{
+            color:#ffffff !important; /* Teal-ish Cyan */
+            transition: color 1s ease;
+        }
+
+        .mylink:focus{
+          transition: all 0.3 s linear;
+          /* border-bottom: 3px solid white; */
+          color:white;
+          
+        }
+        
+        
+
+        .brand-text {
+             font-size: 1.5rem; /* default for large screens */ 
+        }
+        
+        .welcome {
+            background-color: #007bff;
+            margin:70px 20px;
+            color: white;
+            padding: 55px 25px;
+            text-align: center;
+            box-shadow: 5px 5px 10px 7px rgba(0, 0, 0, 0.3);
+        }
+
+        .vision-img img{
+            height:150px;
+            width:350px;
+            object-fit: cover
+        }
+        
+        .text-content img {
+            height:150px;
+            width:350px;
+            /* object-fit: cover; */
+            /* position: absolute;
+            
+            top: 0;
+            left: 0; */
+          }
+        
+        /* .AstMngmntPro-Rcm-img{
+            position: relative;
+            background-color:#f9f4f2;
+            border-radius: 7px;
+            line-height: 30px;
+            transition: all 0.3s ease-out;
+        } */
+        
+        .coreSpec-img img{
+            height:450px;
+            width:800px;
+            border-radius:20px;
+        }
+
+        .VndrMstr-Doc-MnPwrSrvc-img img{
+            height:280px;
+            width:700px;
+            border-radius:50px;
+        }
+        .SftWr-img img{
+           
+           height:290px;
+            width:600px;
+            border-radius:50px;
+        }
+
+        .InvMngMnt-img img{
+            height:380px;
+            width:750px;
+            border-radius:50px;
+        }
+
+        .AstMngmntPro-Rcm-img img{
+            height:380px;
+            width:750px;
+            border-radius:50px;    
+        }
+
+        .BoM-img img{
+            height:520px;
+            width:650px;
+            border-radius:50px;
+        }
+
+        .services-SprPrtIntrRec-img img{
+            height:520px;
+            width:650px;
+            border-radius:50px;
+        }
+
+        .MaterialMasterCataloguingCoding-img img{
+            height:310px;
+            width:850px;
+            border-radius:20px;
+        }
+
+        .rbi-img img{
+            height:520px;
+            width:550px;
+            border-radius:50px;    
+        }
+
+        .Plnt-mitnce-img img{
+            height:580px;
+            width:600px;
+            border-radius:50px;
+           /* object-fit: cover; */
+        }
+
+        .DataClng-img img{
+            height:580px;
+            width:600px;
+            border-radius:50px;
+        }
+
+        .SrvcMstr-img img{
+            height:380px;
+            width:650px;
+            border-radius:50px;
+        }
+
+        .AstMngmnt-pro-img2 img{
+
+            height:500px;
+            width:750px;
+            border-radius:50px;
+                  
+        }
+
+        .services-MatCrit-img1 img {
+            width: 350px;
+            height: 450px;
+         }
+
+         .services-MatCrit-img2 img {
+            width: 750px;
+            height: 250px;
+            border-radius: 40px;
+          }
+
+  
+        .services-EqpMstr-img img{
+            height:500px;
+            width:750px;
+            border-radius:50px;
+        }
+
+        .Vision-text-overlay {
+          position: absolute;
+          top: 0;
+          left: 0;
+          z-index: 2;
+          width: 100%;
+          height: 100%;
+          /* padding: 1rem; */
+          color: black;
+          /* background: rgba(0, 0, 0, 0.4); semi-transparent dark overlay */
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+        }
+
+  .Vision-text-overlay h6, .Vision-text-overlay p {
+    margin: 0;
+  }
+
+
+        .card{
+            display:flex;
+            align-items:center;
+            height:85%;
+            box-shadow: 4px 10px 10px 0px rgba(0, 0, 0, 0.3);
+        }
+        .centered-ul{
+            display: flex;
+            flex-direction:column;
+            text-align: left;
+        }
+
+        .centered-ul li{
+            list-style: none;
+            position: relative;
+        }
+
+        .centered-ul i{
+            margin-right:20px;
+        }
+
+        .centered-div{
+            display: flex;
+            justify-content:space-evenly; 
+            flex-wrap: wrap;
+            align-items: center;   
+            gap:20px;
+        }
+
+        .cust-centered-div{
+          display: flex;
+          gap:40px;
+        }
+
+        .project-card {
+            margin-bottom: 20px;
+        }
+
+            /* Custom slide-in animation */
+    /* .navbar-collapse {
+      position: fixed;
+      top: 0;
+      left: -250px; 
+      width: 250px;
+      height: 100%;
+      background-color:#212529 !important;
+      transition: left 0.3s ease;
+      padding-top: 60px;
+      z-index: 1000;
+    } */
+    
+    .navbar-collapse.show {
+      left: 0; /* Slide in */
+    }
+
+    .navbar-toggler {
+      z-index: 1100; /* Stay above sliding menu */
+    }
+
+    /* VIDEO SECTION CSS*/
+    .video-section {
+      position: relative;
+      /* background-color:#f2f4f7; */
+      height:90vh;
+      width: 100%;
+      margin-top:160px;
+      overflow: hidden;
+    }
+
+    .video-section video {
+      width: 100%;
+      height: 500px;
+      object-fit: cover;
+      /* filter: brightness(90%); */
+    }
+    .quote-overlay {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color:white;
+      text-align: center;
+      text-shadow:2px 2px 30px #212529;
+      text-wrap:nowrap;
+      font-size: 2rem;
+      font-weight: bold;
+      padding: 0 20px;
+    }
+    
+    .Shadow{
+        z-index: 10;
+        box-shadow: 4px 10px 10px 0px rgba(0, 0, 0, 0.3);
+    }
+    /* SLIDE STYLES */
+
+    .carousel-item img {
+      width: 100%;
+      border-radius:10px;
+      object-fit: cover;
+      filter: brightness(85%);
+    }
+
+    .carousel-caption {
+      bottom: 20%;
+    }
+
+    .carousel-caption h5 {
+      font-size: 2.2rem;
+      font-weight: bold;
+      text-shadow:2px 2px 100px black;
+      animation: fadeInUp 1s ease-in-out;
+      
+    }
+    
+    .text-content{
+        position: relative;
+        background-color:#f9f4f2;
+        border-radius: 7px;
+        line-height: 30px;
+        padding: 2%;
+        transition: all 0.3s ease-out;
+    }
+
+    /* style="background-color:#f9f4f2;" */
+
+    /* PROJECT IMAGE SECTION */
+    .project-image {
+      position:relative;
+      width: 220px;
+      height: 150px;
+      overflow: hidden;
+      border-radius: 12px;
+      cursor: pointer;
+      transition: all 0.5s linear;
+      box-shadow: 4px 10px 10px 0px rgba(0, 0, 0, 0.3);
+    }
+
+    .project-image:hover img{
+      transform: scale(1.4);
+    }
+
+    .project-image:hover{
+      box-shadow: 4px 10px 10px 0px rgba(0, 0, 0,0.7);
+    }
+
+    .project-image:hover .project-overlay-text{
+      opacity:1;
+      transform: translateY(-10px);
+    }
+    
+    .project-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: all 0.6s ease;
+    }
+
+    .project-overlay-text {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      background: rgba(0, 0, 0, 0.5);
+      color: white;
+      text-align: center;
+      padding: 8px;
+      opacity: 0;
+      transition:all 1s ease, transform 0.4s ease;
+    }
+
+    @keyframes shine {
+   0% {
+        background-position: -200%;
+     }
+   100% {
+     background-position: 200%;
+    }
+    }
+
+  @keyframes fadeInUp {
+      0% {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+
+.silver-shine {
+  position: relative;
+  display: inline-block;
+  font-weight: bold;
+  background: linear-gradient(
+    120deg,
+    #ccc 0%,
+    #eee 40%,
+    #fff 50%,
+    #eee 60%,
+    #ccc 100%
+  );
+  background-size: 200% auto;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  animation: shine 6s linear infinite;
+}
+
+@keyframes shine {
+  0% {
+    background-position: 200%;
+  }
+  100% {
+    background-position: -200%;
+  }
+}
+
+    /* MEDIA QUIRES */
+    @media (min-width: 992px) {
+      .navbar-collapse {
+        position: static;
+        width: auto;
+        background-color:var(--primary-color);
+        height: auto;
+        padding-top: 0;
+      }
+
+      .carousel-caption h5 {
+        font-size: 1.5rem;
+        padding: 0 10px;
+      }
+
+      .carousel-item img {
+        height: 67vh;
+      }
+
+    }
+
+    @media (max-width: 1205px) {
+      /* .navbar-collapse {
+        position: static;
+        width: auto;
+        background-color:var(--primary-color);
+        height: auto;
+        padding-top: 0;
+      } */
+      .navbar-collapse {
+        position: fixed;
+        top: 0;
+        left: -250px; 
+        width: 250px;
+        height: 100%;
+        background-color:#212529 !important;
+        transition: left 0.3s ease;
+        padding-top: 60px;
+        z-index: 1000;
+      }
+
+      .nav-item{
+         position: relative;
+      }
+      .nav-item i{
+        position: absolute;
+        top:12px;
+        left:50px;
+      }
+    
+      /* .navbar-collapse {
+        flex-wrap: nowrap;
+        align-items:center;
+        justify-content: center;
+        background-color:black !important;
+      } */
+
+      .navbar ul{
+        display: flex;
+        text-align: center;
+        width:100%;
+        position:absolute;
+        flex-direction:column;
+      }
+    
+    }
+
+    
+    @media (max-width: 768px) { /* Mobile screens */
+    .brand-text {
+        font-size: 1.2rem;
+     }
+     
+     .navbar-brand img{
+          height: 50px;
+          width: 60px;
+      }
+
+     .navbar-collapse {
+      position: fixed;
+      top: 0;
+      left: -250px; 
+      width: 250px;
+      height: 100%;
+      background-color:#212529 !important;
+      transition: left 0.3s ease;
+      padding-top: 60px;
+      z-index: 1000;
+      }
+
+     .carousel-caption h5 {
+        font-size: 1.3rem;
+        padding: 0 10px;
+      }
+
+      .carousel-item img {
+        height: 60vh;
+      }
+
+       /* SERVICE IMAGES */
+       .coreSpec-img img{
+            height:280px;
+            width:400px;
+            border-radius:20px;
+        }
+
+        .AstMngmntPro-Rcm-img img{
+            height:215px;
+            width:405px;
+            border-radius:20px;
+        }
+
+        .AstMngmnt-pro-img2 img{
+
+            height:300px;
+            width:400px;
+            border-radius:20px;
+        }
+
+        .Plnt-mitnce-img img{
+            height:390px;
+            width:400px;
+            border-radius:20px;
+          
+        }
+
+        .rbi-img img{
+            height:260px;
+            width:270px;
+            border-radius:20px;    
+        }
+
+        .BoM-img img{
+            height:260px;
+            width:330px;
+            border-radius:20px;
+        }
+        
+        .MaterialMasterCataloguingCoding-img img{
+            height:160px;
+            width:400px;
+            border-radius:20px;
+        }
+
+        .services-SprPrtIntrRec-img img{
+            height:270px;
+            width:300px;
+            border-radius:20px;
+        }
+
+        .services-EqpMstr-img img{
+            height:250px;
+            width:350px;
+            border-radius:50px;
+        }
+
+        .services-MatCrit-img1 img {
+            width: 250px;
+            height: 220px;
+            border-radius: 20px;
+         }
+
+         .services-MatCrit-img2 img {
+            width: 350px;
+            height: 120px;
+            border-radius: 20px;
+          }
+
+          .DataClng-img img{
+            height:240px;
+            width:300px;
+            border-radius:20px;
+        }
+
+        .InvMngMnt-img img{
+            height:190px;
+            width:370px;
+            border-radius:20px;
+        }
+
+        .VndrMstr-Doc-MnPwrSrvc-img img{
+            height:150px;
+            width:380px;
+            border-radius:20px;
+        }
+
+        .SrvcMstr-img img{
+            height:170px;
+            width:350px;
+            border-radius:50px;
+        }
+        .SftWr-img img{
+           
+           height:140px;
+            width:300px;
+            border-radius:20px;
+        }
+
+        
+        
+    }
+
+    @media (max-width: 576px) { /* Mobile screens */
+        
+        .quote-overlay {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            font-size: 1.1rem;
+        }
+        .video-section{
+            height:350px;
+        }
+        
+
+        .carousel-caption h5 {
+        font-size: 1.2rem;
+        }
+
+        .carousel-item img {
+         height: 45vh;
+        }
+
+        .btn-responsive-sm {
+          font-size: 0.72rem;
+          padding: 0.375rem 0.5rem;
+        }
+
+        .video-section{
+          margin-top: 120px;
+        }
+
+        .cust-centered-div{
+          flex-direction: column;
+        }
+        .brand-text {
+          font-size: 0.9rem; 
+          /* background-color:pink; */
+        }
+
+      }
+
+      
+     /* CLIENT SLIDER */
+     .slider-wrapper {
+      position: relative;
+      width: 90%;
+      margin: 40px auto;
+      overflow: hidden;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+      background: #fff;
+    
+    }
+
+    .slider-track {
+      display: flex;
+      align-items: center;
+      transition: transform 1s cubic-bezier(0.77, 0, 0.175, 1);
+    }
+
+    .cli-slide {
+      flex: 0 0 25%;
+      padding: 10px;
+      transform: scale(0.95);
+      transition: transform 0.5s ease;
+    }
+
+    .cli-slide img {
+      width: 90%;
+      height:auto;
+      max-height: 150px;
+      border-radius: 10px;
+    }
+
+    .cli-slide.active {
+      transform: scale(1);
+    }
+
+    .slider-buttons {
+      position: absolute;
+      top: 50%;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      transform: translateY(-50%);
+      padding: 0 15px;
+      pointer-events: none;
+    }
+
+    .slider-buttons button {
+      pointer-events: all;
+      /* background: linear-gradient(145deg, #6a11cb, #2575fc); */
+      /* color: white; */
+      border: none;
+      padding: 10px 16px;
+      border-radius: 50%;
+      font-size: 22px;
+      cursor: pointer;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+      transition: transform 0.2s ease, box-shadow 0.3s ease;
+      opacity: 0.5;
+    }
+
+    .slider-buttons button:hover {
+      transform: scale(1);
+      box-shadow: 0 6px 12px rgba(0,0,0,0.4);
+    }
+
+    /* SCROLL BAR BUTTON */
+
+    #scrollTopBtn {
+      display:none;    /* Hidden by default */
+      position: fixed;
+      bottom:120px;
+      right:34px;
+      z-index: 99999999;
+      font-size: 22px;
+      border: none;
+      outline: none;
+      background: #2575fc;
+      color: white;
+      cursor: pointer;
+      padding: 8px 17px;
+      border-radius: 50%;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+      opacity: 0.5;
+      transition: all 0.4s ease;
+  }
+
+  #scrollTopBtn:hover {
+    transform: scale(1.08);
+    opacity: 1;
+    background: #2575fc;
+  }
+
+
+    /* Responsive Layouts */
+    @media (max-width: 1024px) {
+      .cli-slide { flex: 0 0 33.33%; }
+    }
+
+    @media (max-width: 768px) {
+      .cli-slide { flex: 0 0 50%; }
+    }
+
+    @media (max-width: 480px) {
+      .cli-slide { flex: 0 0 100%; }
+      .cli-slide img { max-height: 180px; }
+    }
+
+     
+
+</style>
+    
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+
+          
+          let index = 0;
+          
+          function getVisibleSlides() {
+              const width = window.innerWidth;
+              if (width < 480) return 1;
+              if (width < 768) return 2;
+              if (width < 1024) return 3;
+              return 4;
+          }
+
+          
+        
+        document.addEventListener('DOMContentLoaded', function () {
+          
+          AOS.init();
+           
+          const scrollBtn = document.getElementById("scrollTopBtn");
+
+          window.addEventListener("scroll", () => {
+          if (window.scrollY > 2000) {
+                scrollBtn.style.display = "block";
+          } else {
+                scrollBtn.style.display = "none";
+            }
+          });
+
+  scrollBtn.addEventListener("click", () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  });             
+          
+
+
+          document.querySelectorAll('a.nav-link[href^="#"]').forEach(anchor => {
+                  anchor.addEventListener("click", function (e) {
+                  e.preventDefault();
+                  const target = document.querySelector(this.getAttribute("href"));
+                  const offsetTop = target.offsetTop - 170;
+
+                  // console.log("Clicked link:", this.getAttribute("href"));
+                  // console.log("Scrolling to offset:", offsetTop);
+
+                  window.scrollTo({
+                          top: offsetTop,
+                          behavior: "smooth"
+                  });
+
+                 // Properly hide the navbar using Bootstrap's Collapse API
+                const navbarCollapseEl = document.querySelector('#navbarNav');
+                const bsCollapse = bootstrap.Collapse.getInstance(navbarCollapseEl) 
+                || new bootstrap.Collapse(navbarCollapseEl, { toggle: false });
+
+                  bsCollapse.hide();
+
+              });
+          });
+
+          document.querySelector('#prevBtn').addEventListener('click', () => moveSlide(-1));
+          document.querySelector('#nextBtn').addEventListener('click', () => moveSlide(1));
+
+          const track = document.getElementById('sliderTrack');
+          const slides = document.querySelectorAll('.cli-slide');
+          
+          function moveSlide(direction) {
+              const visibleSlides = getVisibleSlides();
+              index += direction;
+
+              const maxIndex = slides.length - visibleSlides;
+              if (index < 0) index = maxIndex;
+              if (index > maxIndex) index = 0;
+
+              updateSlider();
+          }
+
+          function updateSlider() {
+              const visibleSlides = getVisibleSlides();
+              const slideWidth = 100 / visibleSlides;
+              track.style.transform = `translateX(-${index * slideWidth}%)`;
+
+              slides.forEach((slide, i) => {
+                  slide.classList.toggle('active', i >= index && i < index + visibleSlides);
+              });
+          }
+
+        
+            window.addEventListener('resize', updateSlider);
+            setInterval(() => moveSlide(1), 4000);
+            updateSlider();
+
+        });
+    </script>
+  
+
+</head>
+<body>
+    
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-xl navbar-dark bg-dark Shadow">
+        <div class="container">
+            
+            <div class="myfontandcolor">
+                <a class="navbar-brand silver-shine" href="#">
+                    <img src="All Properties/IMAGES/CDMS_ICON-removebg.png" alt="Logo" width="75" height="65" class="d-inline-block align-text-bottom">
+                    <span class="brand-text"><span class="brand-custom-color">C</span>hithiram <span class="brand-custom-color">D</span>ata Management Solution</span>
+                </a>
+            </div>
+
+            
+
+            <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <!-- <span class="navbar-toggler-icon"></span> -->
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <div class="navbar navbar-collapse text-white" id="navbarNav">
+                <ul class="navbar-nav ms-auto myfontandcolor">
+                    <li class="nav-item"><i class="fa-solid fa-scroll"></i><a class="nav-link mylink silver-shine" href="#about">About</a></li>
+                    <li class="nav-item"><i class="fa-solid fa-wrench"></i><a class="nav-link mylink silver-shine" href="#SERVICES">Services</a></li>
+                    <!-- <li class="nav-item"><i class="fa-solid fa-layer-group"></i><a class="nav-link mylink silver-shine" href="#PROJECT">Projects</a></li> -->
+                    <li class="nav-item"><i class="fa-solid fa-users"></i><a class="nav-link mylink silver-shine" href="#CLIENT">Client</a></li>
+                    <li class="nav-item"><i class="fa-solid fa-address-book"></i><a class="nav-link mylink silver-shine" href="#CONTACT">Contact</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+    <div class="certifcation">
+      <img src="All Properties/CDMS IMAGES/iso.png" class="img-fluid iso-img" data-aos="slide-left" data-aos-delay="300" data-aos-duration="1000" data-aos-easing="ease-out-cubic" alt="Floating Image">
+   </div>
+
+   <div>
+    <button id="scrollTopBtn" title="Go to top"><i class="fa-solid fa-caret-up"></i></button>
+   </div>
+  
+    <!--VIDEO CONTENT -->
+    <div id="HOME" class="video-section">
+        <video autoplay muted loop>
+            <source src="All Properties/VIDEOS/46685-360.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+        </video>
+        <div class="quote-overlay">
+            " The value of data lies not in its volume,<br>
+             but in its quality and reliability. "
+        </div>
+    </div>
+    
+
+    <!-- WELCOME CARE -->
+    <div class="welcome" data-aos="fade" data-aos-delay="300" data-aos-duration="2500" data-aos-easing="ease-out-cubic" data-aos-once="true" style="
+    margin-top:29px;">
+
+        <h3 class="fw-semibold">Welcome to CDMS</h3>
+        <p>CDMS is a premier engineering consulting company providing solutions and services in the field of Enterprise Asset Management, Cataloguing, and Master Database Management, Data migration and data governance solutions and Plant Maintenance Management with strong quality delivery capabilities in Multiple ERP domains in various process industries.
+            Our Group of Expert team having versatile experiences in Computerized Maintenance Management services in Oil & Gas, Power Steel, Fertilizer, Chemical, Cement, Sugar, mining and automobile industries.</p>
+    </div>
+    
+    <!-- VISSION MISSONG AND SKILLS -->
+    <div class="container text-center mt-5">
+        <div class="row">
+            
+
+            <!-- VISION -->
+            <div class="col-sm-12 col-md-12 col-lg-12 text-center">
+                
+                <div class="container mb-5">                
+                        <h5 class="card-title fw-bold py-3">VISION<i class="fa-solid fa-eye"></i></h5>
+
+                        <div class="centered-div">
+
+                            <div class="vision-img mb-3" data-aos="flip-down" data-aos-delay="400" data-aos-duration="1000" data-aos-easing="ease-out-cubic" data-aos-once="true">
+                              <img src="All Properties/IMAGES/ChatGPT Image Jun 13, 2025, 10_34_15 AM.png">
+                              <div class="py-4">
+                                  <h6 class="fw-semibold ">Data Quality</h6>
+                                  <p class="card-text text-content">Ensuring High Standards of data accuracy</p>
+                              </div>
+                            </div>
+
+                            <div class="vision-img mb-3" data-aos="flip-down" data-aos-delay="1100" data-aos-duration="1000" data-aos-easing="ease-out-cubic" data-aos-once="true">
+                              <img src="All Properties/IMAGES/ChatGPT Image Jun 13, 2025, 10_40_13 AM.png">
+                              <div class="py-4">
+                                <h6 class="fw-semibold">Customer Services</h6>
+                                <p class="card-text text-content">Providing Excellent Support and Satisfaction</p>
+                              </div>
+                            </div>
+
+                            <div class="vision-img mb-3" data-aos="flip-down" data-aos-delay="1400" data-aos-duration="1000" data-aos-easing="ease-out-cubic" data-aos-once="true">
+                              <img src="All Properties/IMAGES/ChatGPT Image Jun 13, 2025, 10_44_56 AM.png">
+                              <div class="py-4">
+                                <h6 class="fw-semibold">Competitive Pricing</h6>
+                                <p class="card-text text-content">Offering The Best Value In the Market</p>
+                              </div>
+                            </div>
+
+                        </div>
+                    
+
+                </div>
+            </div>
+
+            <!-- MISSION -->
+            <div class="col-md-6 col-lg-6"  data-aos="fade-down" data-aos-delay="500" data-aos-duration="1000" data-aos-easing="ease-out-cubic" data-aos-once="true">
+                <div class="card project-card">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">MISSION <i class="fa-solid fa-rocket"></i></h5>
+                        <p class="card-text text-center">
+                            <ul class="centered-ul">
+                                <li><i class="fa-solid fa-check"></i> Improve Customer Relationship</li>
+                                <li><i class="fa-solid fa-check"></i>Deliver quality output</li>
+                                <li><i class="fa-solid fa-check"></i>Implement Cost-effective method</li>
+                                <li><i class="fa-solid fa-check"></i>Enhance and Sharing Knowledge</li>
+                                <li><i class="fa-solid fa-check"></i>Optimization of resource and enhance automation</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SKILLS -->
+            <div class="col-md-6 col-lg-6" data-aos="fade-down" data-aos-delay="500" data-aos-duration="2500" data-aos-easing="ease-out-cubic" data-aos-once="true">
+                <div class="card project-card">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">SKILLS <i class="fa-solid fa-bolt"></i></h5>
+                        <p class="card-text">
+
+                            <ul class="centered-ul">
+                                <li><i class="fa-solid fa-check"></i>ERP – End-user expertise in SAP-MM / PM, Maximo and Oracle</li>
+                                <li><i class="fa-solid fa-check"></i>RCM Tool – Meridium, RCM Turbo</li>
+                                <li><i class="fa-solid fa-check"></i>RBI Tool – Meridium</li>
+                                <li><i class="fa-solid fa-check"></i>MS-Office, MS-Project</li>
+                                <li><i class="fa-solid fa-check"></i>Interim Database Creation</li>
+                                <li><i class="fa-solid fa-check"></i>VB Coding and Macro creation</li>
+                            </ul>
+                            
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+      </div>
+
+
+    <!-- ABOUT SECTOIN START'S  -->
+    <div  class="container mt-5 text-center">
+
+          <h3 class="fw-bold">ABOUT CDMS</h3>
+          <p id="about">
+            CDMS is a premier consulting company specializing in <b>Enterprise Asset Management (EAM), Cataloguing, Master Data Management, Data Migration, Data Governance, and Plant Maintenance Management.</b> Established in 2021 in Chennai, we
+deliver high‐quality solutions across <b>multiple ERP domains</b> for process industries.
+          </p>
+    </div>
+
+
+    <!--  CAROUSAL -->
+    <div id="uniqueCarousel" class="container carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="2500">
+    
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#uniqueCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#uniqueCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#uniqueCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+  
+    <div class="carousel-inner mb-5">
+      <div class="carousel-item active">
+        <img src="All Properties/CDMS IMAGES/banner-img.jpg" class="d-block w-100" alt="Slide 1">
+        <div class="carousel-caption text-white">
+          <h5>“Dream big, work hard.”</h5>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="All Properties/CDMS IMAGES/banner-img1.jpg" class="d-block w-100" alt="Slide 2">
+        <div class="carousel-caption text-white">
+          <h5>“Every step counts.”</h5>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="All Properties/CDMS IMAGES/banner-img3.jpg" class="d-block w-100" alt="Slide 3">
+        <div class="carousel-caption text-white">
+          <h5>“Stay curious, stay strong.”</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Our Expertise -->
+  <div class="container text-content px-5 mt-5 mb-4"  data-aos="fade-right" data-aos-delay="300" data-aos-duration="2000" data-aos-easing="ease-out-cubic">
+
+            <!-- <h3 class="mb-2 text-center">Our Expertise</h3> -->
+            <div >
+                <h5 class="py-4"><b>Our Expertise</b></h5>
+                <ul class="centered-ul">
+                    <li><i class="fa-solid fa-angle-right"></i><b>Enterprise Asset Management (EAM):</b> Optimizing asset performance with <b>predictive maintenance, reliability‐centered maintenance (RCM), and riskbased inspection (RBI).</b></li>
+                    <li><i class="fa-solid fa-angle-right"></i><b>Master Data & Cataloguing:</b> Ensuring <b>accurate, standardized, and enriched material master data</b> for seamless ERP integration</li>
+                    <li><i class="fa-solid fa-angle-right"></i><b>Data Migration & Governance:</b> Secure and efficient <b>data transition, validation, and compliance</b> across multiple ERP platforms.</li>
+                    <li><i class="fa-solid fa-angle-right"></i><b>Plant Maintenance Management:</b> Reducing downtime with <b>AI‐driven analytics, IoT integration, and maintenance strategy optimization.</b></li>
+                </ul>
+            </div>
+  </div>
+
+  <!-- Why Choose CDMS? -->
+  <div class="container px-5 mt-5 mb-4" >
+
+            <h3 class="mb-4 text-left" data-aos="fade" data-aos-delay="400" data-aos-duration="2000" data-aos-easing="ease-out-cubic" data-aos-once="true">Why Choose CDMS?</h3>
+             <div>
+                <!-- <h5 class="py-4"><b>Our Expertise</b></h5> -->
+                <ul class="centered-ul lh-lg">
+                    <li data-aos="fade-right" data-aos-delay="400" data-aos-duration="1800" data-aos-easing="ease-out-cubic" data-aos-once="true"><i class="fa-solid fa-check"></i><b>Industry‐Leading Professionals:</b> Our team comprises <b>seasoned experts</b> with global project experience in <b>oil & gas, manufacturing, energy, and utilities.</b></li>
+                    <li data-aos="fade-right" data-aos-delay="400" data-aos-duration="2300" data-aos-easing="ease-out-cubic" data-aos-once="true"><i class="fa-solid fa-check"></i><b>End‐to‐End Data Solutions:</b> From <b>data cleansing, mining, and enrichment to advanced analytics and reporting,</b> we ensure <b>high‐quality, actionable insights.</b></li>
+                    <li data-aos="fade-right" data-aos-delay="400" data-aos-duration="2600" data-aos-easing="ease-out-cubic" data-aos-once="true"><i class="fa-solid fa-check"></i><b>Cost & Efficiency Benefits:</b> Eliminate redundant data, <b>reduce storage costs, and improve decision‐making</b> with <b>clean, structured databases.</b></li>
+                    <li data-aos="fade-right" data-aos-delay="400" data-aos-duration="2900" data-aos-easing="ease-out-cubic" data-aos-once="true"><i class="fa-solid fa-check"></i><b>Customized Approach:</b> Tailored strategies to meet <b>unique business needs</b>, ensuring compliance and scalability.</li>
+                </ul>
+                <p class="lh-lg">With a commitment to <b>innovation, accuracy, and operational excellence,</b> CDMS helps businesses <b>unlock the true potential of their data.</b> Partner with us to <b>transform data into a strategic asset.</b></p>
+            </div>
+  </div>
+
+    <!-- SERVICES  -->
+    <div class="container py-5" >
+
+       <h3 class="text-center fw-bold py-3" id="SERVICES">SERVICES</h3>
+       <div class="paragraph-section">
+
+        <!-- CORE SPECIALIZATIONS -->
+         <div class="mb-4" >
+            <h4 class="mb-2 text-center fw-bold" data-aos="fade" data-aos-delay="400" data-aos-duration="3000" data-aos-easing="ease-out-cubic" data-aos-once="true">CORE SPECIALIZATIONS</h4>
+             <div class="centered-div coreSpec-img" data-aos="fade" data-aos-delay="900" data-aos-duration="2000" data-aos-easing="ease-out-cubic" data-aos-once="true">
+               <img class="container" src="All Properties/CDMS IMAGES/SERVICES IMAGES/CoreSpliz.png">
+             </div>
+            
+         </div>
+
+           
+
+        <!-- Asset Register / Asset Hierarchy -->
+        <div class="py-5 mb-4">
+
+            <h3 class="mb-2 text-center" data-aos="fade" data-aos-delay="400" data-aos-duration="3000" data-aos-easing="ease-out-cubic" data-aos-once="true">Asset Register / Asset Hierarchy</h3>
+            <p class="mb-5 lh-lg text-content" data-aos="fade-right" data-aos-delay="800" data-aos-duration="2000" data-aos-easing="ease-out-cubic" data-aos-once="true">Asset management refers to the systematic approach as per ISO 14224 / ISO 55000 to the governance and realization of value from the things that a group or entity is responsible for, over their whole life cycles.</p>
+              
+              <div >
+                
+                <h5 class="mb-3 text-center" data-aos="fade" data-aos-delay="400" data-aos-duration="3000" data-aos-easing="ease-out-cubic" data-aos-once="true">Asset Management Process Funnel</h5>
+                <div class="centered-div mb-4 AstMngmntPro-Rcm-img">
+                    <img class="container" src="All Properties/CDMS IMAGES/SERVICES IMAGES/AM-ProFunnel-img1.png">
+                </div>
+
+                <div class="centered-div AstMngmnt-pro-img2" >
+                    <img class="container"  src="All Properties/CDMS IMAGES/SERVICES IMAGES/AM-ProFunnel-img2.png">
+                </div>
+              </div>
+        </div>
+
+        
+        <!-- Plant Maintenance -->
+        <div class="mt-5 mb-3">
+            <h3 class="text-center" data-aos="fade" data-aos-delay="400" data-aos-duration="3000" data-aos-easing="ease-out-cubic" data-aos-once="true"">Plant Maintenance</h3>
+            <p class="text-center text-content mb-5 lh-lg " data-aos="fade-right" data-aos-delay="800" data-aos-duration="2000" data-aos-easing="ease-out-cubic" data-aos-once="true">As per ISO 13374 Plant maintenance is defined as a set of activities that are necessary to keep machinery, parts & types of equipment in good operating conditions to avoid production stoppage and loss.</p>
+            
+            <div>
+
+                <h5 class="text-center mb-3" >Plant Maintenance Strategy</h5>
+                <div class="centered-div Plnt-mitnce-img" >
+                    <img class="container"  src="All Properties/CDMS IMAGES/SERVICES IMAGES/PM Strategy.png">
+                </div>
+            </div>
+        </div>
+         
+       
+
+         <!-- Reliability Centered Maintenance -->
+        <div class="mt-5 mb-4" >
+            <h3 class="mb-2 text-center" data-aos="fade" data-aos-delay="400" data-aos-duration="3000" data-aos-easing="ease-out-cubic" data-aos-once="true">Reliability centered Maintenance</h3>
+            <p class="text-content mb-4 lh-lg"  data-aos="fade-right" data-aos-delay="800" data-aos-duration="2000" data-aos-easing="ease-out-cubic" data-aos-once="true">As per SAE JA1011/12 & IEC 60300‐3‐11 Reliability centered maintenance (RCM) is an Industries‐level method to arrive maintenance strategy that is implemented to optimize the maintenance program. The result of an RCM program is the implementation of a specific maintenance strategy on each of the assets based on the analysis of system functions,
+consequences and failure modes effect of process assemblies or components.</p>
+            
+            <div >
+                
+                <h5 class="mb-2 text-center" >Foundations of RCM</h5>
+                <div class="centered-div AstMngmntPro-Rcm-img" >
+                    <img class="container"  src="All Properties/CDMS IMAGES/SERVICES IMAGES/FoundRCM.png">
+                </div>
+            </div>
+
+        </div>
+        
+
+        <!-- Risk based Inspection -->
+        <div class="mt-5 mb-4">
+            <h3 class="mb-3 text-center" data-aos="fade" data-aos-delay="400" data-aos-duration="3000" data-aos-easing="ease-out-cubic" data-aos-once="true">Risk based Inspection</h3>
+            <p class="text-content mb-5 lh-lg" data-aos="fade-right" data-aos-delay="800" data-aos-duration="2000" data-aos-easing="ease-out-cubic" data-aos-once="true">Risk based inspection is the process of developing a scheme of inspection
+based on knowledge of the risk of failure. The essential process is a risk analysis.
+This is the combination of an assessment of the likelihood (probability) of failure
+due to flaws damage, deterioration, or degradation with an assessment of the
+consequences of such failure
+                <br>
+                As per API 580/581, process applicable to Static equipment, Piping and
+Pressure relief devices</p>
+            
+            <div >
+                
+                <h5 class="mb-3 text-center" >Implementing Risk Based Inspection</h5>
+                <div class="centered-div rbi-img" >
+                    <img class="container"  src="All Properties/CDMS IMAGES/SERVICES IMAGES/RBI.png">
+                </div>
+            </div>
+
+        </div>
+        
+
+        
+      
+        <!-- Plant Maintenance -->
+        <div>
+            <h3 class="text-center" data-aos="fade" data-aos-delay="400" data-aos-duration="3000" data-aos-easing="ease-out-cubic" data-aos-once="true">Bill of Material</h3>
+            <p class="text-content mb-5 lh-lg" data-aos="fade-right" data-aos-delay="800" data-aos-duration="2000" data-aos-easing="ease-out-cubic" data-aos-once="true">A bill of materials is a list of the materials, sub‐assemblies, intermediate
+assemblies, sub‐components, parts, and the quantities of each needed to maintain
+the asset.</p>
+            
+            
+            <div>
+                <h5 class="mb-3 text-center" >Bill of Material Process</h5>
+                <div class="centered-div BoM-img" >
+                    <img class="container"  src="All Properties/CDMS IMAGES/SERVICES IMAGES/BOM.png">
+                </div>
+            </div>
+        </div>
+        
+      
+
+        <!-- Material Master Cataloguing & Coding -->
+        <div class="mt-5 mb-4">
+            <h3 class="mb-2 text-center" data-aos="fade" data-aos-delay="400" data-aos-duration="3000" data-aos-easing="ease-out-cubic" data-aos-once="true">Material Master Cataloguing & Coding</h3>
+            <p class="text-content lh-lg mb-5" data-aos="fade-right" data-aos-delay="800" data-aos-duration="2000" data-aos-easing="ease-out-cubic" data-aos-once="true">As per ISO 8000, Structured cataloguing is the generation of item descriptions
+in a pre‐determined format. It involves the concept of Class/Sub‐Class, which is on
+the upfront in Materials Cataloguing. A format/template is created for each
+Clan/Sub‐class with required Characteristic, like a specification sheet with values
+yet to be filled.<br>
+            We adopt a Logical and Auto coding to classify components by following
+international systems such as MESC & UNSPSC.</p>
+              
+            
+              <div>
+               
+                <div class="centered-div mb-5  MaterialMasterCataloguingCoding-img">
+                    <img class="container" src="All Properties/CDMS IMAGES/SERVICES IMAGES/MetMstCat&Code.png">
+                </div>
+                <h5 class="mb-3 text-center" >Equipment Criticality analysis</h5>
+                <div class="centered-div MaterialMasterCataloguingCoding-img" >
+                    <img class="container"  src="All Properties/CDMS IMAGES/SERVICES IMAGES/EqpCritAnlys.png">
+                </div>
+
+            </div>
+              
+        </div>
+
+
+      
+        <!-- Spare Parts Interchangeability Record -->
+        <div class="mt-5 mb-4">
+            <h3 class="mb-2 text-center" data-aos="fade" data-aos-delay="400" data-aos-duration="3000" data-aos-easing="ease-out-cubic" data-aos-once="true">Spare Parts Interchangeability Record</h3>
+            <p class="text-content mb-5 lh-lg" data-aos="fade-right" data-aos-delay="800" data-aos-duration="2000" data-aos-easing="ease-out-cubic" data-aos-once="true">The primary objective to have a Spare Parts Interchangeability Record (SPIR),
+is to support organizations during commissioning stage and initial operation to
+maintain the spare for smooth start‐up of the plant. Typically, where one item
+can be used across multiple assets or equipment.</p>
+            
+            <div>
+                <h5 class="mb-3 text-center" >SPIR Services and Benefits</h5>
+                <div class="centered-div services-SprPrtIntrRec-img" >
+                    <img class="container"  src="All Properties/CDMS IMAGES/SERVICES IMAGES/SprPrtIntrRec.png">
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- Equipment Master -->
+        <div class="py-5 mb-4">
+
+            <h3 class="mb-2 text-center" data-aos="fade" data-aos-delay="400" data-aos-duration="3000" data-aos-easing="ease-out-cubic" data-aos-once="true">Equipment Master</h3>
+            <p class="text-content mb-5 lh-lg" data-aos="fade-right" data-aos-delay="800" data-aos-duration="2000" data-aos-easing="ease-out-cubic" data-aos-once="true">The equipment master is a place of the standard information related to a
+specific piece of equipment. To manage equipment type, manufacturer information,
+costs, warranties, billing reference, maintenance, and so on, must create an
+equipment master for every piece of equipment in the system.</p>
+              
+              <div >
+        
+                <h5 class="mb-3 text-center" >Equipment Master Services and Benefits</h5>
+                <div class="centered-div  services-EqpMstr-img" >
+                    <img class="container"  src="All Properties/CDMS IMAGES/SERVICES IMAGES/EqpMstr.png">
+                </div>
+              </div>
+
+        </div>
+
+        
+      
+        <!-- Material Criticality-->
+        <div class="py-5 mb-4">
+
+            <h3 class="mb-2 text-center" data-aos="fade" data-aos-delay="400" data-aos-duration="3000" data-aos-easing="ease-out-cubic" data-aos-once="true">Material Criticality</h3>
+            <p class="text-content mb-5 lh-lg" data-aos="fade-right" data-aos-delay="800" data-aos-duration="2000" data-aos-easing="ease-out-cubic" data-aos-once="true">Material criticality or Inventory Analysis to determine the criticality, consumption
+value, consumption rate, stock value, lead time, price of single unit</p>
+              
+              <div>
+                
+                <h5 class="mb-3 text-center" >Analyzing material based on its importance and availability</h5>
+                <div class="centered-div mb-5 services-MatCrit-img1" >
+                    <img src="All Properties/CDMS IMAGES/SERVICES IMAGES/MtrlCr-img1.png">
+                </div>
+                
+                <h5 class="mb-3 text-center" >Core Benefits</h5>
+                <div class="centered-div services-MatCrit-img2" >
+                    <img class="container"  src="All Properties/CDMS IMAGES/SERVICES IMAGES/MtrlCri-img2.png">
+                </div>
+              </div>
+        </div>
+
+
+        <!-- Data Cleaning -->
+        <div class="mt-5 mb-3" >
+            <h3 class="text-center" data-aos="fade" data-aos-delay="400" data-aos-duration="3000" data-aos-easing="ease-out-cubic" data-aos-once="true">Data Cleansing</h3>
+            <p class="text-content mb-5 lh-lg" data-aos="fade-right" data-aos-delay="800" data-aos-duration="2000" data-aos-easing="ease-out-cubic" data-aos-once="true">Looking for master data cleansing for Material Master, Service Master and Vendor
+Master Data Cleansing is the process of structuring and standardizing how the data will
+be managed. This includes the use of a technical dictionary to provide rules‐based
+classification templates and data requirements. Cleansing also provides a method of
+standardization for abbreviations, a short description and purchase order description
+generation.</p>
+            
+            <div>
+
+                <h5 class="mb-3 text-center" >Data Cleaning Cycle</h5>
+                <div class="centered-div DataClng-img" >
+                    <img class="container"  src="All Properties/CDMS IMAGES/SERVICES IMAGES/DataClng.png">
+                </div>
+            </div>
+        </div>
+
+
+    
+          <!-- Inventory management -->
+          <div class="py-5 mb-4" >
+            <h3 class="mb-2 text-center" data-aos="fade" data-aos-delay="400" data-aos-duration="3000" data-aos-easing="ease-out-cubic" data-aos-once="true">Inventory management</h3>
+            <p class="text-content mb-5 lh-lg" data-aos="fade-right" data-aos-delay="800" data-aos-duration="2000" data-aos-easing="ease-out-cubic" data-aos-once="true">Inventory management is the supervision of non‐capitalized assets or inventory,
+and stock items. Inventory management refers to the process of ordering, storing, and
+using a company inventory. These include the management of raw materials,
+components, and finished products, as well as warehousing and processing such items.      
+            </p>
+            
+
+            <div >  
+                <div class="centered-div InvMngMnt-img" >
+                    <img class="container"  src="All Properties/CDMS IMAGES/SERVICES IMAGES/InvMngMnt.png">
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Vendor Master -->
+        <div class="py-5 mb-4">
+
+            <h3 class="mb-2 text-center" data-aos="fade" data-aos-delay="400" data-aos-duration="3000" data-aos-easing="ease-out-cubic" data-aos-once="true">Vendor Master</h3>
+            <p class="text-content mb-5 lh-lg text-center" data-aos="fade-right" data-aos-delay="800" data-aos-duration="2000" data-aos-easing="ease-out-cubic" data-aos-once="true">Vendor Master Data is the enterprise main source of vendor‐specific data. It
+includes information on vendors from which a company can procure.</p>          
+              
+              <div>
+                
+                <div class="centered-div mb-4 VndrMstr-Doc-MnPwrSrvc-img">
+                    <img class="container" src="All Properties/CDMS IMAGES/SERVICES IMAGES/VndrMstr.png">
+                </div>
+
+              </div>
+
+        </div>
+
+
+        
+        <!-- Service Master -->
+        <div class="mt-5 mb-3" >
+            <h3 class="text-center" data-aos="fade" data-aos-delay="400" data-aos-duration="3000" data-aos-easing="ease-out-cubic" data-aos-once="true">Service Master</h3>
+            <p class="text-content mb-5 lh-lg text-center" data-aos="fade-right" data-aos-delay="800" data-aos-duration="2000" data-aos-easing="ease-out-cubic" data-aos-once="true">Service Master data includes information on service provider of expert
+professionals who provide essential services to businesses.</p>
+            
+            <div>
+                <div class="centered-div SrvcMstr-img" >
+                    <img class="container"  src="All Properties/CDMS IMAGES/SERVICES IMAGES/SrvcMstr.png">
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Documentation -->
+        <div class="py-5 mb-4">
+
+            <h3 class="mb-2 text-center" data-aos="fade" data-aos-delay="400" data-aos-duration="3000" data-aos-easing="ease-out-cubic" data-aos-once="true">Documentation</h3>
+            <p class="text-content mb-5 lh-lg" data-aos="fade-right" data-aos-delay="800" data-aos-duration="2000" data-aos-easing="ease-out-cubic" data-aos-once="true">It is very important to keep the documents in such a way to retrieve the
+information of any asst, more informatively and easily. So, the necessity of a document
+library in a systematic way, is playing vital role in current industries.</p>          
+              
+              <div>
+                <h5 class="mb-3 text-center" >Streamlining Documentation for Efficiency</h5>
+                <div class="centered-div mb-4 VndrMstr-Doc-MnPwrSrvc-img ">
+                    <img class="container" src="All Properties/CDMS IMAGES/SERVICES IMAGES/Documentation.png">
+                </div>
+
+              </div>
+
+        </div>
+
+
+      
+        <!-- Manpower Services -->
+        <div class="py-5 mb-4">
+
+            <h3 class="mb-2 text-center" data-aos="fade" data-aos-delay="400" data-aos-duration="3000" data-aos-easing="ease-out-cubic" data-aos-once="true">Manpower Services</h3>
+            <p class="text-content mb-5 lh-lg" data-aos="fade-right" data-aos-delay="800" data-aos-duration="2000" data-aos-easing="ease-out-cubic" data-aos-once="true">Our company’s policies fully comply with all legal, foreign exchange, immigration
+rules and regulations when bringing foreign manpower to requested client sites.</p>          
+              
+              <div>
+                <div class="centered-div mb-4 VndrMstr-Doc-MnPwrSrvc-img ">
+                    <img class="container" src="All Properties/CDMS IMAGES/SERVICES IMAGES/MnpwrSrvc.png">
+                </div>
+
+              </div>
+
+        </div>
+
+
+        
+        <!-- Software -->
+        <div class="py-5 mb-4">
+
+            <h3 class="mb-2 text-center" data-aos="fade" data-aos-delay="400" data-aos-duration="3000" data-aos-easing="ease-out-cubic" data-aos-once="true">Software</h3>
+            <p class="text-content mb-5 lh-lg text-center" data-aos="fade-right" data-aos-delay="800" data-aos-duration="2000" data-aos-easing="ease-out-cubic" data-aos-once="true">Our specialized software engineers develop software / tools based on customer
+requirements.</p>          
+              
+              <div>
+                <h5 class="mb-2 text-center">Software Developement Overview</h5>
+                <div class="centered-div mb-4 SftWr-img ">
+                    <img class="container" src="All Properties/CDMS IMAGES/SERVICES IMAGES/Software.png">
+                </div>
+
+              </div>
+
+        </div>
+
+        <!-- CDMS Customer Relationship Management -->
+        <div class="py-5 mb-4">
+
+            <h3 class="mb-5 text-center" data-aos="fade" data-aos-delay="400" data-aos-duration="3000" data-aos-easing="ease-out-cubic" data-aos-once="true">CDMS Customer Relationship Management Process</h3>
+                      
+              <div>
+                
+                <div class="centered-div mb-4 VndrMstr-Doc-MnPwrSrvc-img ">
+                    <img class="container" src="All Properties/CDMS IMAGES/SERVICES IMAGES/CDMSCustRel.png">
+                </div>
+
+              </div>
+
+        </div>
+
+
+    
+      
+    </div>
+        
+   </div>
+   <!-- PROJECT-SESSION -->
+   <!-- <div class="container">
+    <h3 id="PROJECT" class="fw-bold text-center py-4">PROJECTS</h3>
+        <div class="centered-div py-3">
+
+          <div class="project-image">
+            <img src="All Properties/CDMS IMAGES/abt-img1.jpg" alt="Image 2">
+            <div class="project-overlay-text">PROJECT 1</div>
+          </div>
+
+          <div class="project-image">
+            <img src="All Properties/CDMS IMAGES/abt-img2.jpeg" alt="Image 3">
+            <div class="project-overlay-text">PROJECT 2</div>
+          </div>
+
+          <div class="project-image">
+            <img src="All Properties/CDMS IMAGES/abt-img3.jpg" alt="Image 4">
+            <div class="project-overlay-text">PROJECT 3</div>
+          </div>
+
+          <div class="project-image">
+            <img src="All Properties/CDMS IMAGES/banner-img1.jpg" alt="Image 4">
+            <div class="project-overlay-text">PROJECT 4</div>
+          </div>
+
+        </div>
+    </div> -->
+
+    <!-- CLIENT SECTION  -->
+    <div class="container py-5" >
+      
+      <!-- <div class="py-4" style="background-color:#f9f4f2; border-radius: 20px;"> -->
+      <h3 id="CLIENT" class="text-center fw-bold">CLIENT</h3>
+      <div class="slider-wrapper">
+
+        <div class="slider-track" id="sliderTrack">
+
+          <div class="cli-slide"><img src="All Properties/CDMS IMAGES/cli1.png" alt="1"></div>
+          <div class="cli-slide"><img src="All Properties/CDMS IMAGES/cli2.png" alt="2"></div>
+          <div class="cli-slide"><img src="All Properties/CDMS IMAGES/cli3.png" alt="3"></div>
+          <div class="cli-slide"><img src="All Properties/CDMS IMAGES/cli4.png" alt="4"></div>
+          <div class="cli-slide"><img src="All Properties/CDMS IMAGES/cli5.png" alt="5"></div>
+          <div class="cli-slide"><img src="All Properties/CDMS IMAGES/cli6.png" alt="6"></div>
+          <div class="cli-slide"><img src="All Properties/CDMS IMAGES/cli7.png" alt="7"></div>
+
+        </div>
+      
+        <div class="slider-buttons">
+          <button id="prevBtn"><i class="fa-solid fa-arrow-left"></i></button>
+          <button id="nextBtn"><i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+      </div>
+
+    <!-- </div> -->
+   
+  </div>
+
+    <!-- CONTECT-SECTION -->
+  <div class="container">
+      
+      <div id="CONTACT" class="text-center py-4">
+        <h3 class="fw-bold">Office Locations and Contact</h3>
+        <p>CDMS operates from its headquarters located in the biggest cultural and economic
+center of South India</p>
+      </div>
+
+    <!-- HEAD OFFICE AND BRANCH OFFICE SECTION INSIDE-ROW -->
+    
+    <div class="row text-center">
+      <h4>CHITHIRAM DATA MANAGEMENT SOLUTIONS PRIVATE LIMITED</h4>
+      <div class="text-content col-lg-6 mt-2"> <!-- Head office Division -->
+        
+        <div >
+
+          <div>
+            <h3>Head Office</h3>
+          </div>
+
+           <p>
+             
+           <br>
+           Plot No.19, Malligai Street, B.T Nagar Annex, Gerugambakkam<br>
+           Chennai, Tamil Nadu, India, Pin Code: 600122<br>
+           Phone: +91 95789 78181 / +91 44 24725148<br>
+           Email: info@cdms.in, Web: https://www.cdms.in/
+    
+           </p>
+
+        </div>
+     </div> <!-- Head office Division -->
+
+     <div class="col-lg-6 mt-2"> <!-- Branch Office Division -->
+
+        <div class="text-content py-5">
+          <div class="fw-bold">
+            <h3>Branch Office</h3>
+          </div>
+
+           <br>
+            S2, 2nd Floor, #37, Medavakkam Main Road, Puzhuthivakkam,<br>
+            Chennai, Tamil Nadu, India, Pin Code: 600091<br>
+            Phone: +91‐44‐47939648<br>                      
+           </p>
+         </div>
+      </div><!-- Branch Office Division -->
+
+      </div>
+
+        <!-- MAP SECTOIN -->
+        <div class="container py-5">
+    
+          <div class="text-center">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3888.0069078232773!2d80.18795067507645!3d12.971409587343977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTLCsDU4JzE3LjEiTiA4MMKwMTEnMjUuOSJF!5e0!3m2!1sen!2sin!4v1740809594218!5m2!1sen!2sin" width="600" height="450" style="border:0;    width: 85%;
+                        margin: 0 auto;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+
+        </div>
+
+    <!-- FORM'S SECTOIN -->
+
+    <div class="container row">
+        
+      <div class="centered-div">
+
+        <!-- CAREERS -->  
+        <div class="col-lg-5 col-md-12 py-5 px-5 px-lg-5 text-content">
+          <h2 class="mb-4">Careers</h2>
+          <form enctype="multipart/form-data">
+            <div class="row mb-3">
+              <div class="col-md-6">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Your full name">
+              </div>
+              <div class="col-md-6">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="you@example.com">
+              </div>
+            </div>
+      
+            <div class="row mb-3">
+              <div class="col-md-6">
+                <label for="phone" class="form-label">Phone Number</label>
+                <input type="tel" class="form-control" id="phone" placeholder="e.g., +1234567890">
+              </div>
+              <div class="col-md-6">
+                <label for="experience" class="form-label">Years of Experience</label>
+                <input type="number" class="form-control" id="experience" min="0" placeholder="e.g., 3">
+              </div>
+            </div>
+      
+            <div class="mb-3">
+              <label for="message" class="form-label">Enter Your Message</label>
+              <textarea class="form-control" id="message" rows="5" placeholder="Why would you be a good fit?"></textarea>
+            </div>
+      
+            <div class="mb-3">
+              <label for="resume" class="form-label">Upload Resume (Max 2 MB)</label>
+              <input class="form-control" type="file" id="resume" accept=".pdf,.doc,.docx">
+              <div class="form-text">Accepted formats: PDF, DOC, DOCX. Max file size: 2 MB.</div>
+            </div>
+      
+          
+            <div class="d-flex justify-content-between">
+              <button type="submit" class="btn btn-primary btn-responsive-sm">Upload</button>
+              <button type="submit" class="btn btn-primary btn-responsive-sm">Submit Application</button>
+            </div>
+           
+          </form>
+        </div>
+      
+      
+        <!-- CONTECT US -->
+      <div class="col-lg-6 col-md-12 px-5 text-content " style="box-sizing:border-box; padding:25px 0px 110px 0px;">
+        <h2 class="mb-5 py-4">Contact Us</h2>
+        <form>
+          <div class="row mb-3">
+            <div class="col-md-6">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Your name">
+            </div>
+            <div class="col-md-6">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="you@example.com">
+            </div>
+          </div>
+    
+          <div class="mb-3">
+            <label for="subject" class="form-label">Subject</label>
+            <input type="text" class="form-control" id="subject" placeholder="Subject of your message">
+          </div>
+    
+          <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-control" id="message" rows="5" placeholder="Type your message here..."></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-responsive-sm">Send Message</button>
+          
+        </form>
+      </div>
+      <!-- CONTECT US END-->
+    
+
+      </div>
+    </div><!-- FORM'S SECTOIN END -->
+
+    
+  </div>
+    <!-- <section id="projects" class="container mt-5 text-content">
+      <h4 class="fw-bold">CONTECTS</h4>
+      <div class="row">
+          <div class="col-md-4 col-lg-12">
+              <div class="card project-card">
+                  <div class="card-body">
+                      <h5 class="card-title">Project 1</h5>
+                      <p class="card-text">Description of the project.</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4 col-lg-12">
+              <div class="card project-card">
+                  <div class="card-body">
+                      <h5 class="card-title">Project 2</h5>
+                      <p class="card-text">Description of the project.</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </section> -->
+         
+    
+    <section id="contact" class="container mt-5 me-5 d-flex justify-content-start text-right">
+       <div>
+        <h4>Get a quote: +91 44 4793 9648</h4>
+        <h4><i class="fa-solid fa-envelope"></i> info@cdms.in</h4>
+      </div>
+    </section>
+    
+    <footer class="text-center bg-dark text-white p-3 mt-5">
+        &copy; 2020 by CDMS . All Rights Reserved.
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
